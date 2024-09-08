@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Resume - Fizra Amir</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Fizra Amir</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#work-experience">Work Experience</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Personal Information -->
+    <section class="container text-center mt-5">
+        <img src="profile.jpg" class="rounded-circle img-fluid mb-3" alt="Profile Picture" width="150">
+        <h1>Fizra Amir</h1>
+        <p>Contact: fizra.amir@example.com | Phone: +1234567890</p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="container mt-5">
+        <div class="card">
+            <div class="card-header bg-primary text-white">Education</div>
+            <div class="card-body">
+                <ul class="list-unstyled">
+                    <li><strong>BS Computer Science</strong> - University of XYZ (2020 - 2024)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container mt-5">
+        <div class="card">
+            <div class="card-header bg-success text-white">Skills</div>
+            <div class="card-body">
+                <ul class="list-unstyled">
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>TypeScript, React</li>
+                    <li>Graphic Design, Video Editing</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="work-experience" class="container mt-5 mb-5">
+        <div class="card">
+            <div class="card-header bg-warning text-white">Work Experience</div>
+            <div class="card-body">
+                <ul class="list-unstyled">
+                    <li><strong>Video Editor</strong> - Trendy Tees (2022 - Present)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Toggle Button -->
+    <div class="text-center mb-5">
+        <button id="toggleSkills" class="btn btn-info">Toggle Skills Section</button>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>

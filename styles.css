@@ -1,0 +1,48 @@
+/* styles.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Section Cards */
+.card {
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Image */
+img.rounded-circle {
+    border: 5px solid #343a40;
+    transition: border-color 0.3s;
+}
+
+img.rounded-circle:hover {
+    border-color: #007bff;
+}
+
+/* Button Hover Effect */
+.btn-info:hover {
+    background-color: #17a2b8;
+    border-color: #138496;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+/* Add animation to sections */
+section {
+    opacity: 0;
+    transition: opacity 0.6s ease-out;
+}
+
+section.fade-in {
+    opacity: 1;
+}
